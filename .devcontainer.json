@@ -1,16 +1,18 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/joshspicer/dependsonexperiment/a": {}
-  },
-  "customizations": {
-      "codespaces": {
-      "repositories": {
-        "codspace/*": {
-          "permissions": {
-            "contents": "read",
-            "packages": "read"
-          }
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/joshspicer/dependsonexperiment/a": {}
+	},
+	"customizations": {
+		"codespaces": {
+			"repositories": {
+				"codspace/*": {
+					"permissions": {
+						"contents": "read",
+						"packages": "read"
+					}
+				}
+            }
         }
-  }
+    }
 }
