@@ -1,7 +1,7 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"features": {
-		"ghcr.io/joshspicer/dependsonexperiment/a": {}
+		"ghcr.io/codspace/dependsonexperiment/a": {}
 	},
 	"customizations": {
 		"codespaces": {
