@@ -6,7 +6,7 @@
 	"customizations": {
 		"codespaces": {
 			"repositories": {
-				"codspace/*": {
+				"codspace/dependsonexperiment": {
 					"permissions": {
 						"contents": "read",
 						"packages": "read"
